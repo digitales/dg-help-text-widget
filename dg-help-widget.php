@@ -58,7 +58,7 @@ class DgHelpWidget extends WP_Widget
 
             if ( $this->number_of_fields ):
                 for( $i= 1; $i < $this->number_of_fields; $i++  ):
-                    if ( isset( $instance['title_' . $i ] ) ):
+                    if ( isset( $instance['title_' . $i ] ) && !empty( $instance['title_' . $i ] ) && $instance['title_' . $i ] !=='' ):
                     ?>
                         <div class="help-box">
                             <h5 class="title"><?php echo $instance['title_' . $i ]; ?></h5>
