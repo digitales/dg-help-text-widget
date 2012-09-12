@@ -1,0 +1,22 @@
+.help-box{ margin-bottom: 10px; }
+.help-box h5.title{
+    background: #0C5459 url('../images/icons/next-24x24.png') no-repeat 98% 50%;
+    padding: 15px; /*0.8em 1em 0.5em 1em;*/
+    margin: 0;
+    border-radius: 7px;
+    width: 90%;
+    cursor: pointer;
+}
+.help-box h5.title.active, .help-box h5.title.animation{
+    background: #0C5459 url('../images/icons/down-24x24.png') no-repeat 98% 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.help-box .info{
+    padding: 15px;
+    padding-bottom: 0;
+    width: 90%;
+    background: #083639;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
