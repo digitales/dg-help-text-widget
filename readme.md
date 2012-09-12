@@ -1,4 +1,4 @@
-=== Import Users from CSV ===
+=== DG help text widget for WordPress ===
 
 Contributors: digitales
 Tags: help, accordian, help text, widget
@@ -6,9 +6,10 @@ Requires at least: 3.1
 Tested up to: 3.4
 Stable tag: 0.2
 
-Display accordian help text in the WordPress widget areas.
+Display accordion help text in the WordPress widget areas.
 
 == Description ==
+Display accordian help text in the WordPress widget areas. JQuery is used for the accordion style boxes.
 
 
 = Features =
