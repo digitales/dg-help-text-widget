@@ -42,7 +42,8 @@ Code contributions are welcome [on Github](https://github.com/headshift/dg-help-
 == Upgrade Notice ==
 
 = 0.2 =
-Code cleanup. Added readme.txt.
+Code cleanup. 
+Added readme.txt.
 
 = 0.1 =
 First release.
