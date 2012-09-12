@@ -1,4 +1,5 @@
 === Import Users from CSV ===
+
 Contributors: digitales
 Tags: help, accordian, help text, widget
 Requires at least: 3.1
@@ -25,10 +26,8 @@ Code contributions are welcome [on Github](https://github.com/headshift/dg-help-
 
 = How to use? =
 
-
 == Screenshots ==
 
-1. User import screen
 
 == Changelog ==
 
@@ -43,7 +42,8 @@ Code contributions are welcome [on Github](https://github.com/headshift/dg-help-
 == Upgrade Notice ==
 
 = 0.2 =
-Code cleanup. Added readme.txt.
+Code cleanup. 
+Added readme.txt.
 
 = 0.1 =
 First release.
