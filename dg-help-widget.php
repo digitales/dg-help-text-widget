@@ -90,7 +90,7 @@ class DgHelpWidget extends WP_Widget
         if ( $this->number_of_fields ):
             for( $i= 1; $i < $this->number_of_fields; $i++  ):
                 $instance['title_' . $i ]           = strip_tags($new_instance['title_' . $i ] );
-                $instance['description_' . $i ]     = strip_tags($new_instance['description_' . $i ]);
+                $instance['description_' . $i ]     = strip_tags($new_instance['description_' . $i ], '<p><a><b><em><span>');
             endfor;
         endif;
 
