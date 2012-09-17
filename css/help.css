@@ -4,7 +4,6 @@
     padding: 15px; /*0.8em 1em 0.5em 1em;*/
     margin: 0;
     border-radius: 7px;
-
     cursor: pointer;
 }
 .help-box h5.title.active, .help-box h5.title.animation{
@@ -15,7 +14,7 @@
 .help-box .info{
     padding: 15px;
     padding-bottom: 0;
-    
+
     background: #083639;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
