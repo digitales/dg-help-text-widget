@@ -2,9 +2,11 @@
 .help-box h5.title{
     background: #0C5459 url('../images/icons/next-24x24.png') no-repeat 98% 50%;
     padding: 15px; /*0.8em 1em 0.5em 1em;*/
+    padding-right: 20px;
     margin: 0;
     border-radius: 7px;
     cursor: pointer;
+    font-size: 15px
 }
 .help-box h5.title.active, .help-box h5.title.animation{
     background: #0C5459 url('../images/icons/down-24x24.png') no-repeat 98% 50%;
