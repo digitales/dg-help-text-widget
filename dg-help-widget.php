@@ -45,7 +45,9 @@ class DgHelpWidget extends WP_Widget
 	{
         extract( $args );
 
-        $widget_title = apply_filters( 'widget_title', $instance['title'] );
+        $title = isset( $instance['title'] )? $instance['title'] : '' ;
+
+        $widget_title = apply_filters( 'widget_title', $title );
 
         echo '<div ' . $this->get_classes() . '>';
 
